@@ -10,3 +10,9 @@ h1 {
 img {
 	border: 5px solid black;
 }
+
+.ImageBorder
+{
+    border-width: 10px;
+    border-color: black;
+}
