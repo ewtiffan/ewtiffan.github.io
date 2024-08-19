@@ -4,11 +4,17 @@ body {
 
 h1 {
   color: navy;
-  margin-left: 20px;
+	text-align: center;
 }
 
 img {
 	border: 5px solid black;
+	padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+	
 }
 
 .ImageBorder
@@ -22,4 +28,11 @@ img {
  border-width:3px;
  border-style:solid;
  border-color:green;
+}
+
+#margincenter {
+	padding: 0;
+    display: block;
+    margin: 0 auto;
+	text-align: center;
 }
